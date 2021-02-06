@@ -1,0 +1,27 @@
+1. webfilterproxyd - It's parental control dameon which filter the website based on user content restriction. It is
+default in MAC OSX.
+
+2. launchd - launchd is the service management framework used by macOS, similar in some ways to service control manager
+on windows or systemd on many linux distributions.
+
+3. syspolicyd - syspolicyd's purpose is to act as the centralized daemon for answering gatekeeper questions, it assess
+applications before running, handles authorization of loading KEXTs, tracking legacy applications and handling software
+notarization.
+
+4. logd - This daemon is responsible for managing logs.
+
+5. amfid - amfid checks the integrity of files running on the system by calling trustd to do its checking. trustd is a
+Launch Agent daemon which provides services for evaluating trust in certificates for all processes, including with
+static code checks.
+
+6. suggestd - suggestd is daemon that processes user content in order to detect contacts, events, named entities, etc.
+
+7. cloudd - cloudd is the system daemon backing the cloudkit feature for syncing Mac's desktop and documents to other
+devices.
+
+8. corespotlightd - this daemon allows OSX to search within apps/programs.
+
+9. sharingd - sharingd is used by the Finder to enable AirDrop file sharing, connecting shared computers, and accessing
+remote discs from other computers.
+
+10. kernelmanagerd - this process is used by third-party apps to use kernel extensions.
