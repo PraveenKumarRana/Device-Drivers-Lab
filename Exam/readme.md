@@ -5,7 +5,7 @@
 -   I didn't change any thing in kbduskemap.h file, i only modified the keylogger.c file in such a way to print only CAPITAL letters in the log file
 
 # Output Files
-![Inserting Module]("/1.png")
-![Recording Keypress]("/2.png")
+![Inserting Module](1.png)
+![Recording Keypress](2.png)
 
 ### Thank You
